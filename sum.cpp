@@ -2,8 +2,9 @@
 using namespace std;
 int main()
 {
-    int a = 10, b = 5, sum;
-
+    int a, b, sum;
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
     sum = a + b;
     cout << "sum is " << sum;
     return 0;
